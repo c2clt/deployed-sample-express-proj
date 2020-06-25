@@ -9,7 +9,7 @@ app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
 app.get("/", (req, res)=>{
-    res.render("HOME", {
+    res.render("home", {
         title: "Home Page"
     })
 });
